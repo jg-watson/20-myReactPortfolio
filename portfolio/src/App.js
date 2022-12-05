@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div>
-     
+     <Header/>
       <Tabs currentTab={currentTab} handleTabChange={handleTabChange} />
       {renderTab()}
 
