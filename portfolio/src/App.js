@@ -22,7 +22,7 @@ function App() {
       return <Contact />;
     }
     if (currentTab === "Resume") {
-      return <h1>add resume download link</h1>;
+      return <a href="https://docs.google.com/document/d/1t2_OfxH6JC5FkJKrgNqAPzLs43irvKqQUMXa0brSkRk/edit?usp=sharing">Resume</a>;
     }
   };
 
